@@ -2,8 +2,11 @@ const mongoose = require("mongoose");
 
 const connectDB = async () => {
     try {
+      // await mongoose.connect(
+      //   `mongodb://localhost:27017/NishantSells`
+      // );
       await mongoose.connect(
-        `mongodb://localhost:27017/NishantSells`
+        `mongodb+srv://vishalmishra27:2WZtqrV7JIIjbFqk@cluster0.xuqtp.mongodb.net/`
       );
       console.log("MongoDB Connected Successfully ✅");
     } catch (error) {
