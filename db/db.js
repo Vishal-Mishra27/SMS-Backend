@@ -6,7 +6,7 @@ const connectDB = async () => {
       //   `mongodb://localhost:27017/NishantSells`
       // );
       await mongoose.connect(
-        `mongodb+srv://vishalmishra27:2WZtqrV7JIIjbFqk@cluster0.xuqtp.mongodb.net/`
+        `mongodb+srv://vishalmishra27:2WZtqrV7JIIjbFqk@cluster0.xuqtp.mongodb.net/Sells`
       );
       console.log("MongoDB Connected Successfully ✅");
     } catch (error) {
